@@ -4,8 +4,8 @@ const precacheFiles = [
   "/index.html",
   "/js/predictions.js",
   "/js/scripts.js",
+  "/js/libs/jquery.min.js",
   "/css/styles.css",
-  "https://code.jquery.com/jquery-3.4.1.min.js",
 ];
 
 self.addEventListener("install", function (event) {
